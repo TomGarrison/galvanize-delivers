@@ -1,0 +1,31 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#index-banner{
+    background-image: url('http://slantinteriors.com/wp-content/uploads/2014/06/Galvanize_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#firstheader{
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom:150px;
+  color: #ffffff;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+.orange-text{
+}
+.material-icons{
+  color: rgb(250, 157, 0);
+}
+#logo-container{
+  font-size: 2em;
+}
+.imgcart{
+  background-size: cover;
+}
