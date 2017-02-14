@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     var total = 0;
     $("#burger").click(function() {
         $("<tr><td>17.50</td></tr>").appendTo(".price")
