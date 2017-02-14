@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!-- HEADER START -->
     <nav class="orange lighten-1" role="navigation">
         <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Galvanize Delivers</a>
             <ul class="right hide-on-med-and-down">
@@ -26,56 +27,143 @@
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
     </nav>
+    <h1 class="header center orange-text">Order Here</h1>
+    <div class="row"></div>
+    <!-- HEADER END -->
+
+    <!-- FOOD OPTIONS START -->
+    <div class="row">
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/burger.jpg">
+                </div>
+                <div class="card-content">
+                    <p>Boulder Burger<br> (NON-GMO, Vegan, GF, Free Range, Boujee)</p>
+                </div>
+                <div class="card-action">
+                    <a id="burger" href="#">Add To Order</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/ice_cream.jpg">
+                </div>
+                <div class="card-content">
+                    <p>Non Melting Ice Cream<br> (Farm Grown, Sustainable)</p>
+                </div>
+                <div class="card-action">
+                    <a id='ice' href="#">Add To Order</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT START -->
+        <div class="row">
+            <form class="col s4">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name" data-error="wrong" data-success="right">Frist Name</label>
+                    </div>
+                </div>
+            </form>
+            <form class="col s4">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">phone_circle</i>
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name" data-error="wrong" data-success="right">Phone Number</label>
+                    </div>
+                </div>
+            </form>
+            <form class="col s4">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">email_circle</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email" data-error="wrong" data-success="right">Email</label>
+                    </div>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- CONTACT END -->
 
     <div class="row">
-      <div class="col s12 m6">
-        <div class="card small">
-          <div class="card-image">
-            <img class="imgcart" src="img/burger.jpg">
-            <span class="card-title">Card Title</span>
-            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/pizza.jpg">
+                </div>
+                <div class="card-content">
+                    <p>Pizza</p>
+                </div>
+                <div class="card-action">
+                    <a id="pizza" href="#">Add To Order</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="col s12 m7">
-   <h2 class="header">Horizontal Card</h2>
-   <div class="card horizontal card small">
-     <div class="card-image">
-       <img src="img/ice_cream.jpg">
-     </div>
-     <div class="card-stacked">
-       <div class="card-content">
-         <p>I am a very simple card. I am good at containing small bits of information.</p>
-       </div>
-       <div class="card-action">
-         <a href="#">This is a link</a>
-       </div>
-     </div>
-   </div>
- </div>
- <div class="col s12 m7">
-<h2 class="header">Horizontal Card</h2>
-<div class="card horizontal card small">
-  <div class="card-image">
-    <img src="img/pizza.jpg">
-  </div>
-  <div class="card-stacked">
-    <div class="card-content">
-      <p>I am a very simple card. I am good at containing small bits of information.</p>
-    </div>
-    <div class="card-action">
-      <a href="#">This is a link</a>
-    </div>
-  </div>
-</div>
-</div>
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/ribs.jpg">
+                </div>
+                <div class="card-content">
+                    <p>Vegan Ribs</p>
+                </div>
+                <div class="card-action">
+                    <a id="ribs" href="#">Add To Order</a>
+                </div>
+            </div>
+        </div>
+        <!-- FOOD OPTIONS END -->
+        <!-- TABLE START -->
+        <div class="row">
+            <div class="col s4">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th data-field="name">Item Name</th>
+                            <th data-field="price">Item Price</th>
+                        </tr>
+                    </thead>
 
+                    <tbody>
+                        <tr>
+                            <td class="item"></td>
+                            <td class="price"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <td id="tax">Tax:</td>
+                        <td id="tax2"></td>
+                        </tr>
+                        <tr>
+                            <td id="total">Total:</td>
+                            <td id="total2">
+                                <td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- TABLE END -->
 
-
+    <!-- FOOTER START -->
     <footer class="page-footer orange">
         <div class="container">
             <div class="row">
@@ -97,13 +185,13 @@
             </div>
         </div>
     </footer>
-
+    <!-- FOOTER END -->
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
-
+    <script src="app.js" charset="utf-8"></script>
 </body>
 
 </html>
