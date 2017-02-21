@@ -1,3 +1,6 @@
+/**{
+  font-family: 'Cinzel';
+}*/
 .icon-block {
   padding: 0 15px;
 }
@@ -41,6 +44,7 @@
     background-color: rgb(252, 252, 252);
 }
 #btn{
+  width: 150px;
   text-align: center;
   background-color: rgba(255, 255, 255, 1);
   color: rgb(55, 55, 55);
@@ -48,6 +52,8 @@
   border: 1px solid rgb(250, 157, 0);
 }
 #btn:hover{
+  width: 180px;
+  text-align: center;
   background-color: rgb(250, 157, 0);
   font-size: 20px;
   text-shadow: .5px .5px rgb(252, 252, 252);
